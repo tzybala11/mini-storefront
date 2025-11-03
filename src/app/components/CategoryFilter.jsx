@@ -26,3 +26,5 @@ function CategoryFilter({ categoryFilter, setCategoryFilter, categories }) {
         </div>
     );
 }
+
+export default CategoryFilter;
