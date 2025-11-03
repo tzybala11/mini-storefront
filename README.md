@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Mini Storefront Project
 
-## Getting Started
+This project is inteded to be a mini storefront using Next.JS and React. It makes use of a local web server to hose a webpage that can be used to display interactive information using JS, CSS, HTML, etc..
 
-First, run the development server:
+First to start you need npm, which means you need to go to your terminal and type in 'npm install'.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The way to run this locally is to go to your computer's local terminal and find the folder for the app and then type in 'npm run dev' to start up the server and then type into a web browser 'https://localhost:3000' and it will load up the webpage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To build the project you need to type into the terminal 'npm run build' and then to start the server 'npm start'
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The features of this project are many different functions provided through JS code, that being the webpage which showcases a catalog of items to look through. Each item has a product card sorted by a list using a key for each item, and you are able to use a filter for both category and price to find what you are looking for. Additionally there is a cart summary section and a status message that is displayed for the webpage that changes based on the status of the products loading and if there is any error or nothing present.
